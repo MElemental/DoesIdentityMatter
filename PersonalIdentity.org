@@ -1,0 +1,104 @@
+#+TITLE: Does Identity Matter?
+#+OPTIONS: title:nil author:nil date:nil toc:nil num:2
+
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LATEX_HEADER: \usepackage{tikz}
+
+* Does Personal Identity Matter?
+** History
+*** René Descartes and prior
+The self is an immaterial soul, formed of a different substance outside of our physical reality (Dualism).
+
+*** David Hume
+David Hume considered the self (or possibly eliminated the self, and instead viewed the self) as a bundle of impressions through time (i.e. original impressions such as perceptions, and secondary impressions such as beliefs, thoughts, and desires).
+
+*** Derek Parfit
+Derek Parfit builds upon this conception of the self by focusing on this connection of mental states.
+Parfit also introduces scenarios where the self runs into branching and merging, and introduces the concepts of /psychological continuity/ and /psychological connectedness/.
+
+** Motivations
+Science fiction has provided us with many cases where the concept of the self is challenged.
+
+*** Sci-Fi
+**** Teleportation accidents (/Star Trek/) -
+deconstruction fails, or reconstruction occurs in multiple instances.
+
+**** Mind duplication technology (/Altered Carbon/, /Black Mirror/) -
+minds are saved and duplicated for purposes of replication later.
+
+*** In Real Life
+There have been instances where people survive with only half a brain, or where the corpus callosum was severed to treat epilepsy.
+In the latter case it seemed like there were two sets of consciousnesses/mentalities.
+
+* Scope
+** Self resides in the mind
+While other theories of the self emphasize the body or the soul,
+for the purpose of this discussion,
+we will assume the self is contained in our mental properties.
+This does assume a functionalist understanding of mental properties.
+While genetic and neural dispositions can instantiate a self, in terms of changes to the self, we will assume that the self need not be continued on the same physical hardware it originated from.
+
+*** 1000 dollars or 1000 volts
+Your brain will get swapped into another body, and the other body's brain will get swapped into yours.
+You get to choose whether the other body with your original brain or your original body with the other brain gets 1000 dollars, the other one gets 1000 volts.
+Which one would you choose?
+
+** Personal Identity over time
+We are specifically discussing identity over time, not identity in an instance.
+Concepts such as nationality, sexuality, and sex and gender can be considered impressions/psychological connections in an instant, and we'll treat them all as some of the aspects of the self that can vary over time.
+We're more concerned with how the self changes over time.
+
+** Self vs. identity $\rho$
+*** Survival of the self
+We're concerned with whether an entity called the self persists through given scenarios.
+Identity \rho is a specific relation (\rho) that does not seem to apply in all cases,
+yet it seems we would agree that a self persists even if an identity does not.
+
+*** Identity $\rho$
+Reflexive \[x=x\]
+Symmetric \[x=y \rightarrow y=x\]
+Transitive \[x=y \wedge y=z \rightarrow x=z\]
+The identity \rho was assumed to be what mattered with the self, before Parfit.
+A belief in self that depends on the identity \rho implies that there is an entity that meets these criteria when a self survives, and no existence of one when a self does not survive.
+These properties imply identity as an all-or-nothing, one-to-one relation.
+This is the notion of the self that Parfit challenges.
+
+** Psychological fission
+While Parfit does talk about psychological fusion, Methuselah cases, and thought experiments in which all of these conditions occur, I will tentatively limit this discussion to fission cases.
+This means we're mainly concerned with the one-to-one aspect of identity.
+The case of fission tries to target the one-to-one aspect.
+The fusion and Methuselah cases target the all-or-nothing aspect of identity.
+
+* Thought Experiment
+The main thought experiment we're concerned with are cases of psychological fission.
+If we have a mind that divides into multiple instances, can we really say anything about identity?
+\\
+\\
+\begin{tikzpicture}
+[sibling distance=5em, level distance=10em, grow=right,
+every node/.style={shape=rectangle, rounded corners, draw, align=center}]
+\node{Andy 2010}
+  child{node{Andy B 2011}
+    child{node{Andy B 2012}}}
+  child{node{Andy A 2011}
+    child{node{Andy A 2012}}};
+\end{tikzpicture}
+
+**** Andy died in 2011 -
+So a double success is a failure?
+
+**** Either Andy A or Andy B is the only one identical to Andy 2010 -
+How do you get to decide who the identical one is?
+
+**** Andy A and Andy B are both Andy 2010 -
+If one kills the other, is it both a murder and a suicide?
+
+**** Abandon the assertion of Personal Identity -
+The self does not need to be one-to-one. /Psychological continuity/ is a better relation to focus on.
+
+* Implications
+** Law assumes the identity \rho and it will be a mess if a case of fission occurred.
+** Self interest's only logical conclusion is generalized altruism.
+Is it morally right to decide which branch of yourself gets a better life?
+
+# ** Interpersonal Relationships
