@@ -1,22 +1,24 @@
 #+TITLE: Does Identity Matter?
-#+OPTIONS: title:nil author:nil date:nil toc:nil num:2
+#+OPTIONS: title:nil author:nil date:nil toc:nil num:nil
 
 #+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
 #+LATEX_HEADER: \usepackage{tikz}
 
 * Does Personal Identity Matter?
-** History
-*** René Descartes and prior
-The self is an immaterial soul, formed of a different substance outside of our physical reality (Dualism).
+# ** History
+# # *** René Descartes and prior
+# # The self is an immaterial soul, formed of a different substance outside of our physical reality (Dualism).
 
-*** David Hume
-David Hume considered the self (or possibly eliminated the self, and instead viewed the self) as a bundle of impressions through time (i.e. original impressions such as perceptions, and secondary impressions such as beliefs, thoughts, and desires).
+# # *** David Hume
+# # David Hume considered the self (or possibly eliminated the self, and instead viewed the self) as a bundle of impressions through time (i.e. original impressions such as perceptions, and secondary impressions such as beliefs, thoughts, and desires).
 
-*** Derek Parfit
-Derek Parfit builds upon this conception of the self by focusing on this connection of mental states.
-Parfit also introduces scenarios where the self runs into branching and merging, and introduces the concepts of /psychological continuity/ and /psychological connectedness/.
+# *** British Empiricism
+# **** David Hume - There is no self, only collections of impressions (perceptions & propositional attitudes)
+# **** John Locke - The self is contained in memory. (Memory Theory of the Self)
+# *** Derek Parfit
+# Derek Parfit builds upon this conception of the self by focusing on this connection of mental states.
+# Parfit also introduces scenarios where the self runs into branching and merging, and introduces the concepts of /psychological continuity/ and /psychological connectedness/.
 
-** Motivations
 Science fiction has provided us with many cases where the concept of the self is challenged.
 
 *** Sci-Fi
@@ -32,23 +34,23 @@ In the latter case it seemed like there were two sets of consciousnesses/mentali
 
 * Scope
 ** Self resides in the mind
-While other theories of the self emphasize the body or the soul,
-for the purpose of this discussion,
+For the purpose of this discussion,
 we will assume the self is contained in our mental properties.
-This does assume a functionalist understanding of mental properties.
+Locke would argue the self resides in our memory, Hume would say what we call the self is a bundle of impressions.
+# This does assume a functionalist understanding of mental properties.
 While genetic and neural dispositions can instantiate a self, in terms of changes to the self, we will assume that the self need not be continued on the same physical hardware it originated from.
 
-*** 1000 dollars or 1000 volts
-Your brain will get swapped into another body, and the other body's brain will get swapped into yours.
-You get to choose whether the other body with your original brain or your original body with the other brain gets 1000 dollars, the other one gets 1000 volts.
-Which one would you choose?
+# *** 1000 dollars or 1000 volts
+# Your brain will get swapped into another body, and the other body's brain will get swapped into yours.
+# You get to choose whether the other body with your original brain or your original body with the other brain gets 1000 dollars, the other one gets 1000 volts.
+# Which one would you choose?
 
 ** Personal Identity over time
-We are specifically discussing identity over time, not identity in an instance.
-Concepts such as nationality, sexuality, and sex and gender can be considered impressions/psychological connections in an instant, and we'll treat them all as some of the aspects of the self that can vary over time.
+Derek Parfit developed a lot of the modern discourse on Personal Identity.
+He was concerned with identity over time, not identity in an instance.
+Concepts such as nationality, sexuality, and sex and gender can be considered impressions/propositional attitudes. in an instant, and we'll treat them all as some of the aspects of the self that can vary over time.
 We're more concerned with how the self changes over time.
 
-** Self vs. identity $\rho$
 *** Survival of the self
 We're concerned with whether an entity called the self persists through given scenarios.
 Identity \rho is a specific relation (\rho) that does not seem to apply in all cases,
@@ -58,24 +60,25 @@ yet it seems we would agree that a self persists even if an identity does not.
 Reflexive \[x=x\]
 Symmetric \[x=y \rightarrow y=x\]
 Transitive \[x=y \wedge y=z \rightarrow x=z\]
-The identity \rho was assumed to be what mattered with the self, before Parfit.
+Personal Identity is a numeric identity, we're concerned about whether we can call a person the same person throughout time.
 A belief in self that depends on the identity \rho implies that there is an entity that meets these criteria when a self survives, and no existence of one when a self does not survive.
 These properties imply identity as an all-or-nothing, one-to-one relation.
 This is the notion of the self that Parfit challenges.
 
-** Psychological fission
-While Parfit does talk about psychological fusion, Methuselah cases, and thought experiments in which all of these conditions occur, I will tentatively limit this discussion to fission cases.
-This means we're mainly concerned with the one-to-one aspect of identity.
-The case of fission tries to target the one-to-one aspect.
-The fusion and Methuselah cases target the all-or-nothing aspect of identity.
-
 * Thought Experiment
 The main thought experiment we're concerned with are cases of psychological fission.
 If we have a mind that divides into multiple instances, can we really say anything about identity?
+
+
+** Psychological fission
+# While Parfit does talk about psychological fusion, Methuselah cases, and thought experiments in which all of these conditions occur, I will tentatively limit this discussion to fission cases.
+# This means we're mainly concerned with the one-to-one aspect of identity.
+The case of fission targets the one-to-one aspect of Personal Identity and the self.
+It also introduces the concept of Psychological Continuity.
 \\
 \\
 \begin{tikzpicture}
-[sibling distance=5em, level distance=10em, grow=right,
+[sibling distance=5em, level distance=8em, grow=right,
 every node/.style={shape=rectangle, rounded corners, draw, align=center}]
 \node{Andy 2010}
   child{node{Andy B 2011}
@@ -83,7 +86,7 @@ every node/.style={shape=rectangle, rounded corners, draw, align=center}]
   child{node{Andy A 2011}
     child{node{Andy A 2012}}};
 \end{tikzpicture}
-
+*** Interpretations:
 **** Andy died in 2011 -
 So a double success is a failure?
 
@@ -92,13 +95,43 @@ How do you get to decide who the identical one is?
 
 **** Andy A and Andy B are both Andy 2010 -
 If one kills the other, is it both a murder and a suicide?
+**** Abandon Personal Identity as a necessary relation -
+/Psychological Continuity/ is a better relation to focus on. Personal Identity is just a special case of /Psychological Continuity/ where there is no branching.
 
-**** Abandon the assertion of Personal Identity -
-The self does not need to be one-to-one. /Psychological continuity/ is a better relation to focus on.
-
+** Psychological Fusion
+\\
+\begin{tikzpicture}
+[sibling distance=5em, level distance=15em, grow=left,
+every node/.style={shape=rectangle, rounded corners, draw, align=center}]
+\node{Balice 2021}
+  child{node{Bob 2020}
+        child{node{Bob 2000}}
+}
+  child{node{Alice 2020}
+        child{node{Alice 2000}}
+    };
+\end{tikzpicture}
+\\
+# Balice isn't identical because that would mean that the creation of Balice would make Bob and Alice identical, or that Balice died.
+# Both interpretations seem insufficient for describing the reality of this situation.
+In psychological fusion, the aspect of identity that is challenged is all-or-nothing.
+In fission we showed that what matters does not need to be one-to-one.
+Also Balice would not have all of Bob's or all of Alice's impressions/propositional attitudes.
+Balice is /Psychologically Connected/ with memories/attitudes of both Bob and Alice.
+We don't need a fusion case to talk about /Psychological Connectedness/.
+\\
+\\
+\begin{tikzpicture}
+[sibling distance=5em, level distance=15em, grow=left,
+every node/.style={shape=rectangle, rounded corners, draw, align=center}]
+\node{Leela 2040}
+  child{node{Leela 2030}
+        child{node{Leela 2020}
+            child{node{Leela 2010}
+}}};
+\end{tikzpicture}
 * Implications
-** Law assumes the identity \rho and it will be a mess if a case of fission occurred.
-** Self interest's only logical conclusion is generalized altruism.
+*** What is love?
+*** Who is responsible? What is remorse good for?
+*** What does self interest mean without identity?
 Is it morally right to decide which branch of yourself gets a better life?
-
-# ** Interpersonal Relationships
